@@ -1,0 +1,377 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+body {
+    /* font-size/line-height kisa kullanim*/
+    font: 400 16px/28px 'Open Sans', sans-serif;
+    color: #212121;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    margin-bottom: 38px;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: -0.35px;
+    margin-bottom: 16px;
+}
+
+h3, h4 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h3 { margin-bottom: 16px; }
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.nav a {
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #212121;
+}
+
+.headerIcons {
+    display: flex;
+    gap: 30px;
+}
+
+/*  Ana Yazının Eklenmesi + Register + İcon baslangic */
+.anayazi{
+  color: #212121;
+  width: 824px;
+  height: 96px;
+  letter-spacing: -0.4px;
+  Line-height:48px;
+  font-size: 40px;
+  margin: 80 auto;
+  margin-top: 80px;
+}
+
+.resim{
+    border-radius: 50%;
+}
+
+
+.registericon{ 
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register{
+    margin-right: 600px;
+}
+
+.icon{
+ 
+    display: flex;
+    gap: 10px;
+}
+
+/* ! Ana Yazının Eklenmesi + Register + İcon bitis */
+
+/* Bilgisayar Resmi ve Yazi Baslangic */
+
+.bilgisayarResim{
+    margin:54px auto;
+    width: 1110px;
+    height: 624px;
+
+}
+
+.bilgisayaraltyazi{
+font-size: 16px;
+position: absolute;
+width: 1112px;
+height: 336px;
+color: #212121; 
+line-height: 28px;
+margin: 24px 162px;
+}
+
+.bilgisayaraltyazi span {
+    margin-top:20px;
+    display: block;
+}
+
+/* !Bilgisayar Resmi ve Yazi Bitis */
+
+/* Mac Pro Tanitilmasi Baslangic */
+.macpro{
+    padding-top: 440px;
+    display: flex;
+    margin: 0 auto;
+    width: 1160px;
+    text-align: left;
+    margin-bottom: 75px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.macpro img {
+    width: 440px;
+}
+.bilgilendirmemesaji {
+    margin-top: 80.5px;
+    display: block;
+}
+.macpro h1 {
+    color: #212121;
+    font-size: 20px;
+    margin: 0;
+    display: block;
+    max-width: 550px;
+    width: 546px;
+    height: 90px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    line-height: 28px;
+}
+.macpro  .altyazi h4{
+    margin-top: 980px;
+    display: inline-block;
+    max-height: auto;
+    width: 546px;
+    margin: 0;
+    height: 90px;
+    font-size: 14px;
+    margin-left: 50px;
+    line-height: 22px;
+}
+
+/* ! Mac Pro Tanitilmasi Bitis */
+
+/* Roald Dahl'ın Yazisi Baslangic */
+
+.yazaryazi{
+display: block;
+margin:auto 165px;
+}
+
+/* !Roald Dahl'ın Yazisi Bitis */
+
+/* Apple Watch'in Tanitildigi Alan Baslangici */
+
+.saat {
+    padding-top: 140px;
+    display: flex;
+    margin: 0 auto;
+    width: 1100px;
+    text-align: left;
+    margin-bottom: 200px;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: row; 
+}
+
+
+.icresim{
+    margin-left: 50px;
+}
+.saat h1 {
+     width: 546px;
+     height: 90px;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 30px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.altyazi{
+    width: 546px;
+    height: 280px;
+    font-size: 16px;
+    line-height: 28px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* !Apple Watch'in Tanitildigi Alan Bitisi */
+
+/* Apple Watch ve ozelliklerinin eklenmesi */
+.applewatchdivi  p {
+  color: #212121;
+  margin-top: 48px;
+
+  margin-bottom: 32px;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -0.35px;
+}
+
+
+
+
+
+.applewatchdivi  {
+    margin-left: 172px;
+    padding-bottom: 75px;
+}
+
+/* !Apple Watch ve ozelliklerinin bitis */
+
+
+
+/*  YOU MAY ALSO LİKE KISMI BAŞLANGIÇ  */
+
+.baslik2{
+    width: 290px;
+    height: 48px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-size: 32px;
+    line-height: 48px;
+    color: #1E1E1E;
+    margin-left: 25px;
+}
+
+.photo-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo-item {
+  text-align: center;
+  width: 30%;
+}
+
+.inanılmazresim {
+    justify-content: space-between;
+    margin-left: 25px;
+  width: 322px;
+  height:235px;
+}
+
+.photo-title {
+    width: 322px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #212121;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 15px;
+}
+
+
+
+
+.photo-caption{
+    justify-content: center;
+    width: 322px;
+    height: 72px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #52647C;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-left: 24px;
+}
+/* ! YOU MAY ALSO LİKE KISMI BİTİŞ */
+
+
+/* Footer Başlangıç */
+footer{
+    font-size: 14px;
+}
+.ustkisim {
+    margin-top: 25px;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+
+.sutun {
+    margin-bottom: 15px;
+}
+
+
+
+.altkisim {
+    padding: 5px;
+    margin-top: 25px;
+    margin: 0 auto;
+    max-width: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+   
+}
+
+.sosyalmedya img {
+    display: inline;
+    padding-right: 30px;
+     gap: 50px;
+}
+  
+/* ! Footer Bitiş */
+/* cls */
